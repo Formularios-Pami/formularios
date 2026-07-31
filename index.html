@@ -22,14 +22,18 @@ footer{text-align:center;color:#666;padding:20px}
 <div class="item"><span>📄 Autorización</span><a class="btn" href="formularios/Autorizacion.pdf">Descargar</a></div>
 </details>
 <details><summary>Afiliaciones</summary>
-<div class="item"><span>📄 Actualización de Datos</span><a class="btn" href="formularios/Actualizacion_Datos.pdf">Descargar</a></div>
+<div class="item"><span>📄 Requisitos</span><a class="btn" href="formularios/afiliaciones.pdf">Descargar</a></div>
 </details>
 <details><summary>Reclamos</summary>
 <div class="item"><span>📄 Reclamo General</span><a class="btn" href="formularios/Reclamo.pdf">Descargar</a></div>
 </details>
 </div></div>
-<footer>Desarrollado por Área TIC</footer>
+<footer>Desarrollado por Área DIVTEC</footer>
 <script>
-function f(){let t=q.value.toLowerCase();
-document.querySelectorAll(".item").forEach(i=>i.style.display=i.innerText.toLowerCase().includes(t)?"flex":"none");}
+function f() {
+    let t = document.getElementById('q').value.toLowerCase();
+    document.querySelectorAll(".item").forEach(i => {
+        i.style.display = i.innerText.toLowerCase().includes(t) ? "flex" : "none";
+    });
+}
 </script></body></html>
