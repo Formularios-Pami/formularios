@@ -27,10 +27,11 @@ footer{text-align:center;color:#666;padding:20px}
 <details><summary>Reclamos</summary>
 <div class="item"><span>📄 Reclamo General</span><a class="btn" href="formularios/Reclamo.pdf">Descargar</a></div>
 </details>
-</div></div>
+</div>
 <footer>Desarrollado por Área DIVTEC</footer>
 <script>
-function f() {let t= document.getElementById('q').value.toLowerCase();
-    document.querySelectorAll(".item").forEach(i => 
-        i.style.display = i.innerText.toLowerCase().includes(t) ? "flex" : "none");}
+function f() {let t = document.getElementById('q').value.toLowerCase();
+    document.querySelectorAll(".item").forEach(i => { 
+        i.style.display = i.innerText.toLowerCase().includes(t) ? "flex" : "none";});
+             }
 </script></body></html>
