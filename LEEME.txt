@@ -1,0 +1,1 @@
+Copie sus PDF en la carpeta formularios y publique esta carpeta en IIS/Nginx/Apache. Genere un QR apuntando al index.html
