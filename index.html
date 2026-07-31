@@ -36,10 +36,7 @@ footer{text-align:center;color:#666;padding:20px}
     <a href="formularios/registro.html" class="item">Formulario de Registro</a>
     <a href="formularios/encuesta.html" class="item">Formulario de Encuesta</a>
 </div>
-function f() {
-    let t = document.getElementById('q').value.toLowerCase();
-    document.querySelectorAll(".item").forEach(i => {
-        i.style.display = i.innerText.toLowerCase().includes(t) ? "flex" : "none";
-    });
-}
+function f(){let t= document.getElementById('q').value.toLowerCase();
+    document.querySelectorAll(".item").forEach(i => 
+        i.style.display = i.innerText.toLowerCase().includes(t) ? "flex" : "none");}
 </script></body></html>
